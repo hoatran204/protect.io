@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>CRUR Page</h1>
+
+      <form action="" id="form-data">
+        <div>
+          <p>name</p>
+          <input type="text " name="name" id="name" />
+          <p class="text-red error error-name"></p>
+        </div>
+        <div>
+          <p>Price</p>
+          <input type="text " name="price" id="price" />
+          <p class="text-red error error-price"></p>
+        </div>
+        <div>
+          <p>Infor</p>
+          <input type="text " name="infor" id="infor" />
+          <p class="text-red error error-infor"></p>
+        </div>
+        <button type="button" class="btn" id="submit">submit</button>
+      </form>
+
+      <table>
+        <tr>
+          <td>Id</td>
+          <td>Name</td>
+          <td>Price</td>
+          <td>Infor</td>
+          <td>Action</td>
+        </tr>
+        <tbody id="tbody">
+          <tr>
+            <td>1</td>
+            <td>Nam</td>
+            <td>1000</td>
+            <td>tt</td>
+            <td>
+              <button class="btn">Edit</button>
+              <button class="btn">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
+
